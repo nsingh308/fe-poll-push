@@ -1,0 +1,18 @@
+<div class="container">
+    <br/>
+    <div class="row justify-content-md-center">
+        <div class="col col-lg-2">
+            <label for="userId">UserId:</label> 
+         </div>
+         <div class="col col-lg-2">
+            <input  type="text" class="form-control" id="userId" [(ngModel)]="userId" >
+         </div>
+    </div>
+    <br/>
+    <div class="row justify-content-md-center">
+        <button id="option1" (click)="optionClicked($event.target)" class="btn btn-primary">Option1</button>&nbsp;
+        <button id="option2" (click)="optionClicked($event.target)" class="btn btn-primary">Option2</button>&nbsp;
+        <button id="option3" (click)="optionClicked($event.target)" class="btn btn-primary">Option3</button>&nbsp;
+        <button id="option4" (click)="optionClicked($event.target)" class="btn btn-primary">Option4</button>
+    </div>
+</div>
